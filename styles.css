@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Todes ,'Times New Roman', Times, serif;
+    src: url(font/Todes\ Normal.otf);
+    src: url(font/Todes\ Normal.ttf);
+    src: url(font/Todes\ Normalitalic.otf);
+    src: url(font/Todes\ Normalitalic.ttf);
+    src: url(font/Todes\ Bold.otf);
+    src: url(font/Todes\ Bold.ttf);
+    src: url(font/Todes\ Bolditalic.otf);
+    src: url(font/Todes\ Bolditalic.ttf);
+    src: url(font/Todes\ Light.otf);
+    src: url(font/Todes\ Light.ttf);
+    src: url(font/Todes\ Lightitalic.otf);
+    src: url(font/Todes\ Lightitalic.ttf);
+    src: url(font/Todes\ Medium.otf);
+    src: url(font/Todes\ Medium.ttf);
+    src: url(font/Todes\ Mediumitalic.otf);
+    src: url(font/Todes\ Mediumitalic.ttf);
+    src: url(font/Todes\ Normalitalic.otf);
+    src: url(font/Todes\ Normalitalic.ttf);
+    src: url(font/Todes\ Regular.otf);
+    src: url(font/Todes\ Regular.ttf);
+    src: url(font/Todes\ Regularitalic.otf);
+    src: url(font/Todes\ Regularitalic.ttf);
+}
+
+.background {
+    width: 100vw;
+    z-index: -1;
+}
+
+.logo {
+    position: absolute;
+    z-index: 10;
+    height:9vw;
+    padding-left: 2%;
+    filter: invert();
+}
+
+h3 {
+    position: absolute;
+    z-index: 15;
+    color: white;
+    margin-top: 5%;
+    margin-right: 20%;
+    margin-left: 60%;
+}
+
+h4 {
+    color: white;
+    position: relative;
+    margin-top: -33%;
+
+    text-align: right;
+    /* font-size: small; */
+    font-family: Todes
+}
+
+h2 {
+    position: relative;
+    margin-top: 50%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.marca {
+    height: 100px;
+}
