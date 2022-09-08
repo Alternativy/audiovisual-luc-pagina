@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     overflow-x: hidden;
     font-family: Todes ,'Times New Roman', Times, serif;
@@ -105,4 +106,16 @@ h2 {
 
 footer {
     padding-top: 100vh;
+}
+
+@media only screen and (max-width:670px){
+    .logo {
+        /* display: none; */
+        height:25vw;
+    }
+    .contacto {
+    justify-content: center;
+    margin-top: -70vh;
+    margin-right: 40vh;
+    }
 }
