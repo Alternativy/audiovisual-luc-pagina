@@ -48,22 +48,46 @@ h3 {
     position: absolute;
     z-index: 15;
     color: white;
-    margin-top: 5%;
-    margin-right: 20%;
-    margin-left: 60%;
+    margin-top: 5ch;
+    margin-right: 20ch;
+    margin-left: 60ch;
+}
+
+.escribinos {
+    font-size: 1.5rem;
+}
+
+.contacto {
+    display: flex;
+    flex-direction: column-reverse;
+    color: white;
+    /* position: relative; */
+    justify-content: right;
+    margin-top: -100vh;
+
+    /* font-size: small; */
 }
 
 h4 {
+    display: flex;
+    flex-direction: column;
     color: white;
-    position: relative;
-    margin-top: -33%;
-    text-align: right;
+    /* position: relative; */
+    text-align: left;
+    margin-left: 66%;
     /* font-size: small; */
-    font-family: Todes
+    font-family: Todes;
+}
+
+p {
+    /* font-style: italic; */
+    font-weight: lighter;
 }
 
 h2 {
-    position: relative;
+    display: flex;
+    justify-content: center;
+    /* position: relative; */
     margin-top: 50%;
     margin-left: 20%;
     margin-right: 20%;
@@ -71,4 +95,14 @@ h2 {
 
 .marca {
     height: 100px;
+}
+
+.logos-de-marcas {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+footer {
+    padding-top: 100vh;
 }
