@@ -5,29 +5,9 @@
 
 body {
     overflow-x: hidden;
-    font-family: Todes ,'Times New Roman', Times, serif;
-    src: url(font/Todes\ Normal.otf);
-    src: url(font/Todes\ Normal.ttf);
-    src: url(font/Todes\ Normalitalic.otf);
-    src: url(font/Todes\ Normalitalic.ttf);
-    src: url(font/Todes\ Bold.otf);
-    src: url(font/Todes\ Bold.ttf);
-    src: url(font/Todes\ Bolditalic.otf);
-    src: url(font/Todes\ Bolditalic.ttf);
-    src: url(font/Todes\ Light.otf);
-    src: url(font/Todes\ Light.ttf);
-    src: url(font/Todes\ Lightitalic.otf);
-    src: url(font/Todes\ Lightitalic.ttf);
-    src: url(font/Todes\ Medium.otf);
-    src: url(font/Todes\ Medium.ttf);
-    src: url(font/Todes\ Mediumitalic.otf);
-    src: url(font/Todes\ Mediumitalic.ttf);
-    src: url(font/Todes\ Normalitalic.otf);
-    src: url(font/Todes\ Normalitalic.ttf);
-    src: url(font/Todes\ Regular.otf);
-    src: url(font/Todes\ Regular.ttf);
-    src: url(font/Todes\ Regularitalic.otf);
-    src: url(font/Todes\ Regularitalic.ttf);
+    font-family: 'Abhaya Libre' , Todes ,'Times New Roman', Times, serif;
+    src: url(font/Abhaya Libre\ AbhayaLibre-Regular.ttf);
+    background-color: black;
 }
 
 .background {
@@ -35,6 +15,7 @@ body {
     height: 100vh;
     z-index: -1;
     object-fit: cover;
+    display: flexbox;
 }
 
 .logo {
@@ -61,7 +42,7 @@ h3 {
 .contacto {
     display: flex;
     flex-direction: column-reverse;
-    color: white;
+    color: rgb(244, 244, 244);
     /* position: relative; */
     justify-content: right;
     margin-top: -100vh;
@@ -72,12 +53,11 @@ h3 {
 h4 {
     display: flex;
     flex-direction: column;
-    color: white;
+    color: rgb(244, 244, 244);
     /* position: relative; */
     text-align: left;
     margin-left: 66%;
     /* font-size: small; */
-    font-family: Todes;
 }
 
 p {
@@ -89,9 +69,6 @@ h2 {
     display: flex;
     justify-content: center;
     /* position: relative; */
-    margin-top: 50%;
-    margin-left: 20%;
-    margin-right: 20%;
 }
 
 .marca {
@@ -105,7 +82,8 @@ h2 {
 }
 
 footer {
-    padding-top: 100vh;
+    background-color: white;
+    padding-bottom: 1%;
 }
 
 @media only screen and (max-width:670px){
@@ -114,8 +92,41 @@ footer {
         height:25vw;
     }
     .contacto {
-    justify-content: center;
-    margin-top: -70vh;
-    margin-right: 40vh;
+    /* margin-top: -70vh; */
+    margin-right: 7ch;
     }
+}
+
+.photo{
+    justify-content: center;
+    width: 50%;
+    margin: 0;
+
+}
+
+.presentacion{
+    text-align: center;
+    color: white;
+    font-size: 3em;
+}
+
+section{
+    width: 100vw;
+    background-color:#c7c7c7;
+    background-color:black;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+b{
+    font-size: 1.2rem;
+    font-weight: 1000;
+}
+
+sobre{
+    /* opacity: 0; */
+    /* opacity: 0; */
+    width: 5ch;
+    margin-left: -2.3ch;
 }
