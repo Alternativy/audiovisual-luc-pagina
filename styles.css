@@ -25,6 +25,7 @@ body {
     padding: 15px;
     padding-left: 2%;
     filter: invert();
+    -webkit-filter: invert();
 }
 
 h3 {
