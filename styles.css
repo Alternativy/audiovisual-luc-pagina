@@ -21,7 +21,8 @@ body {
 .logo {
     position: absolute;
     z-index: 10;
-    height:9vw;
+    height:60px;
+    padding: 15px;
     padding-left: 2%;
     filter: invert();
 }
@@ -45,8 +46,10 @@ h3 {
     color: rgb(244, 244, 244);
     /* position: relative; */
     justify-content: right;
+    margin-right: 10ch;
     margin-top: -100vh;
-
+    height: 100vh;
+    padding-top: 6px;
     /* font-size: small; */
 }
 
@@ -68,11 +71,13 @@ p {
 h2 {
     display: flex;
     justify-content: center;
+    font-size: 1em;
+    padding: 0.25em;
     /* position: relative; */
 }
 
 .marca {
-    height: 100px;
+    height: 60px;
 }
 
 .logos-de-marcas {
@@ -86,17 +91,33 @@ footer {
     padding-bottom: 1%;
 }
 
-@media only screen and (max-width:670px){
-    .logo {
-        /* display: none; */
-        height:25vw;
-    }
-    .contacto {
-    /* margin-top: -70vh; */
-    margin-right: 7ch;
-    }
+.video_vertical {
+    /* display: none; */
 }
 
+@media only screen and (max-width:660px){
+    .video_horizontal {
+        /* display: none; */
+    }
+    .video_vertical {
+        display: flex;
+    }
+    .marca {
+        height: 30px;
+    }
+    h2 {
+        font-size: 0.75em;
+    }
+        /* display: none; */
+        /* height:25vw;
+    }
+    .contacto { */
+    /* margin-top: -70vh; */
+    /* margin-right: 7ch;
+    }
+}
+*/
+}
 .photo{
     justify-content: center;
     width: 50%;
@@ -129,4 +150,14 @@ sobre{
     /* opacity: 0; */
     width: 5ch;
     margin-left: -2.3ch;
+}
+
+header{
+    margin: 0%;
+    padding: 0%;
+    height: 100vh;
+}
+
+video{
+    width: 100vw;
 }
